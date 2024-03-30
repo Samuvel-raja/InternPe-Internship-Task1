@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+   
+    height: 80vh;
+   box-shadow:2px 2px 2px 4px #147613;
+   border-top-left-radius: 200px;
+   border-bottom-right-radius: 200px;
+   margin: 10px;
+}
+.head-container {
+    display: flex;
+    justify-content: center;
+}
+.heading
+{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 40px;
+    color: #840f8c;
+    box-shadow: 1px 1px 1px 2px grey;
+    border-radius: 200px;
+    width: 200px;
+}
+.calculator
+{
+    box-shadow: 2px 2px 2px 4px grey;
+    padding: 20px;
+    border-radius: 40px;
+    background-color:black;
+    box-shadow:inset 1px 1px 1px 3px grey;
+    box-shadow:inset 2px 2px 2px 4px aqua;
+    margin-left: 350px;
+    height: 500px;
+    margin-top: 20px;
+}
+.calculator input
+{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 90px;
+    box-shadow:outset 1px 1px 1px 1px grey;
+    box-shadow:inset 1px 1px 1px 1px grey;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+}
+.equal-button
+{
+    width: 100px;
+}
+.calculator .display
+{
+    background-color: aliceblue;
+    cursor:auto;
+    box-shadow:outset -2px -2px 4px lightgray;
+    width: 250px;
+    cursor:default;
+    font-size: 25px;
+}
+.history
+{
+    width: 400px;
+    box-shadow: 1px 1px 1px 2px grey;
+    height: 500px;
+    overflow-y: scroll;
+    margin-left: 40px;
+    margin-top: 40px;
+    
+}
+.hist-cont
+{
+  
+    margin-left: 40px;
+    color: red;
+}
